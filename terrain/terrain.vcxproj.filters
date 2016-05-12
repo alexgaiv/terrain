@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{f9c71404-f9c8-4ee7-a86c-0044ecca3592}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\include">
+      <UniqueIdentifier>{6376bb8b-7dca-4a2c-aea6-50aa233a4a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\source">
+      <UniqueIdentifier>{4b7a088f-49f2-4757-9eae-f353ca0851ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lib\source\basewindow.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\camera.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\glcontext.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\glwindow.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\image.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\mesh.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\model.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\quaternion.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\shader.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\skybox.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\texture.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\trackball.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\transform.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\source\vertexbuffer.cpp">
+      <Filter>lib\source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\include\basewindow.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\camera.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\common.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\datatypes.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\geometry.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\glcontext.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\glwindow.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\image.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\mesh.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\model.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\quaternion.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\shader.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\sharedptr.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\skybox.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\texture.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\trackball.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\transform.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\include\vertexbuffer.h">
+      <Filter>lib\include</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="mainwindow.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\include\datatypes.inl">
+      <Filter>lib\include</Filter>
+    </None>
+  </ItemGroup>
+</Project>
